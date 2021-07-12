@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><style>
+	  * { font-size: 15pt; }
+	  input { height: 35px; margin:5px; }
+	</style></head> 
+<body>
+   <form action="listeClients.php" target="main">
+    <input type="submit" value="Liste des clients" />
+   </form>
+   <hr/>
+   <form action="listeCommandesParClients.php" target="main">
+       <input type="submit" value="Liste de commandes par clients" />
+   </form>
+   <hr/>
+   <form action="listeCommandesPourUnClient.php" target="main">
+	  <input type="text" name="nom"/> <br/>
+       <input type="submit" value="Liste des commandes d'un client" />
+   </form>
+     <hr/>
+     <form action="nombreCommandesParClients_graphique.php" target="main">
+       <input type="submit" value="Nombre des commandes par clients" />
+   </form>
+   <hr/>
+   <form action="nombredecommandesparproduit.php" target="main">
+       <input type="submit" value="Nombre de commandes par produit" />
+   </form>
+   <hr/>
+   <form action="Listecommandes par mois.PHP" target="main">
+       <input type="text" name="Nom"/> <br/>
+       <input type="submit" value="Liste de commande d'un produit" />
+   </form>
+     <hr/>
+</body>
+</html>
